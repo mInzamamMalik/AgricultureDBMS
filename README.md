@@ -1,2 +1,2 @@
 # AgricultureDBMS
-this is our uni project
+this is our uni project about agriculture
