@@ -31,46 +31,46 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel9.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel11.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,104 +103,18 @@
             this.label8.TabIndex = 2;
             this.label8.Text = "AbdulJabar@gmail.com";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 14);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Aam ka bagh";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 39);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(213, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "343, chak 13, dawood goth, rahim yar khan";
-            // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(23, 25);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 100);
-            this.panel2.TabIndex = 3;
-            this.panel2.Click += new System.EventHandler(this.panel2_Paint);
-            // 
-            // panel3
-            // 
-            this.panel3.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Location = new System.Drawing.Point(470, 25);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 100);
-            this.panel3.TabIndex = 4;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 39);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(213, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "343, chak 13, dawood goth, rahim yar khan";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 14);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Aam ka bagh";
-            // 
-            // panel4
-            // 
-            this.panel4.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(237, 25);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 100);
-            this.panel4.TabIndex = 4;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(14, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(213, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "343, chak 13, dawood goth, rahim yar khan";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(14, 14);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Aam ka bagh";
-            // 
             // panel5
             // 
             this.panel5.AutoScroll = true;
             this.panel5.Controls.Add(this.panel9);
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Controls.Add(this.panel10);
-            this.panel5.Controls.Add(this.panel2);
-            this.panel5.Controls.Add(this.panel11);
-            this.panel5.Controls.Add(this.panel7);
             this.panel5.Controls.Add(this.panel3);
-            this.panel5.Controls.Add(this.panel8);
+            this.panel5.Controls.Add(this.panel2);
+            this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.panel4);
+            this.panel5.Controls.Add(this.panel10);
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Controls.Add(this.panel11);
+            this.panel5.Controls.Add(this.panel8);
             this.panel5.Location = new System.Drawing.Point(17, 201);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(900, 248);
@@ -208,10 +122,10 @@
             // 
             // panel9
             // 
-            this.panel9.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
+            this.panel9.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images__2_;
             this.panel9.Controls.Add(this.label15);
             this.panel9.Controls.Add(this.label16);
-            this.panel9.Location = new System.Drawing.Point(23, 257);
+            this.panel9.Location = new System.Drawing.Point(6, 230);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(200, 100);
             this.panel9.TabIndex = 8;
@@ -234,12 +148,70 @@
             this.label16.TabIndex = 0;
             this.label16.Text = "Aam ka bagh";
             // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::AgricultureDBMS.Properties.Resources.download__2_;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Location = new System.Drawing.Point(453, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 100);
+            this.panel3.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(14, 39);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(213, 13);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "343, chak 13, dawood goth, rahim yar khan";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 14);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Aam ka bagh";
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::AgricultureDBMS.Properties.Resources.download;
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Location = new System.Drawing.Point(6, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.TabIndex = 3;
+            this.panel2.Click += new System.EventHandler(this.panel2_Paint);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 39);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(213, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "343, chak 13, dawood goth, rahim yar khan";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 14);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Aam ka bagh";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // panel6
             // 
-            this.panel6.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
+            this.panel6.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images1;
             this.panel6.Controls.Add(this.label9);
             this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(23, 141);
+            this.panel6.Location = new System.Drawing.Point(6, 114);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 100);
             this.panel6.TabIndex = 5;
@@ -262,12 +234,40 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Aam ka bagh";
             // 
+            // panel4
+            // 
+            this.panel4.BackgroundImage = global::AgricultureDBMS.Properties.Resources.download__7_;
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.label7);
+            this.panel4.Location = new System.Drawing.Point(220, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 100);
+            this.panel4.TabIndex = 4;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(14, 39);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(213, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "343, chak 13, dawood goth, rahim yar khan";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(14, 14);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(70, 13);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Aam ka bagh";
+            // 
             // panel10
             // 
-            this.panel10.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
+            this.panel10.BackgroundImage = global::AgricultureDBMS.Properties.Resources.download__6_;
             this.panel10.Controls.Add(this.label17);
             this.panel10.Controls.Add(this.label18);
-            this.panel10.Location = new System.Drawing.Point(470, 257);
+            this.panel10.Location = new System.Drawing.Point(453, 230);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(200, 100);
             this.panel10.TabIndex = 9;
@@ -290,40 +290,12 @@
             this.label18.TabIndex = 0;
             this.label18.Text = "Aam ka bagh";
             // 
-            // panel11
-            // 
-            this.panel11.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
-            this.panel11.Controls.Add(this.label19);
-            this.panel11.Controls.Add(this.label20);
-            this.panel11.Location = new System.Drawing.Point(237, 257);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(200, 100);
-            this.panel11.TabIndex = 10;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(14, 39);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(213, 13);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "343, chak 13, dawood goth, rahim yar khan";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(14, 14);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(70, 13);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "Aam ka bagh";
-            // 
             // panel7
             // 
-            this.panel7.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
+            this.panel7.BackgroundImage = global::AgricultureDBMS.Properties.Resources.download__3_;
             this.panel7.Controls.Add(this.label11);
             this.panel7.Controls.Add(this.label12);
-            this.panel7.Location = new System.Drawing.Point(470, 141);
+            this.panel7.Location = new System.Drawing.Point(453, 114);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(200, 100);
             this.panel7.TabIndex = 6;
@@ -346,12 +318,40 @@
             this.label12.TabIndex = 0;
             this.label12.Text = "Aam ka bagh";
             // 
+            // panel11
+            // 
+            this.panel11.BackgroundImage = global::AgricultureDBMS.Properties.Resources.download__1_;
+            this.panel11.Controls.Add(this.label19);
+            this.panel11.Controls.Add(this.label20);
+            this.panel11.Location = new System.Drawing.Point(220, 230);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(200, 100);
+            this.panel11.TabIndex = 10;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(14, 39);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(213, 13);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "343, chak 13, dawood goth, rahim yar khan";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(14, 14);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(70, 13);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Aam ka bagh";
+            // 
             // panel8
             // 
-            this.panel8.BackgroundImage = global::AgricultureDBMS.Properties.Resources.images;
+            this.panel8.BackgroundImage = global::AgricultureDBMS.Properties.Resources.download__5_;
             this.panel8.Controls.Add(this.label13);
             this.panel8.Controls.Add(this.label14);
-            this.panel8.Location = new System.Drawing.Point(237, 141);
+            this.panel8.Location = new System.Drawing.Point(220, 114);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(200, 100);
             this.panel8.TabIndex = 7;
@@ -402,6 +402,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(929, 461);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel5);
@@ -413,23 +414,23 @@
             this.Load += new System.EventHandler(this.Landlord_Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.ResumeLayout(false);
