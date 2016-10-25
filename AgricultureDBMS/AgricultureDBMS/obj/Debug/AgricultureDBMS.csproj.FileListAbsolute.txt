@@ -1,0 +1,14 @@
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\bin\Debug\AgricultureDBMS.exe.config
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.csprojResolveAssemblyReference.cache
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Add_Event_in_Timeline.resources
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Form1.resources
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Land_Detail.resources
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Landlord_Dashboard.resources
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Login.resources
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Properties.Resources.resources
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.csproj.GenerateResource.Cache
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\bin\Debug\AgricultureDBMS.exe
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\bin\Debug\AgricultureDBMS.pdb
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.exe
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.pdb
+D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Add_or_Edit_Land.resources
