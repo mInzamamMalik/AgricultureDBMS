@@ -32,5 +32,15 @@ namespace AgricultureDBMS
             Form Add_Event_in_Timeline = new Add_Event_in_Timeline();
             Add_Event_in_Timeline.Show();
         }
+
+        private void Land_Detail_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
