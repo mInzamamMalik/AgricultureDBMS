@@ -7,28 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+
 
 namespace AgricultureDBMS
 {
     public partial class Login : Form
     {
+        OleDbConnection con = new OleDbConnection();
+
         public Login()
         {
             InitializeComponent();
+            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\ABEER\Documents\Agricultureproject.accdb";
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
-            //Form2 f2 = new Form2();
-            //f2.con.Open();
-            //OleDbCommand cmd = new OleDbCommand("select pid from patient", f2.con);
-            //OleDbDataReader dr = cmd.ExecuteReader();
-
-            //while (dr.Read())
-            //{
-            //    this.comboBox1.Items.Add(dr["pid"].ToString());
-            //}
-            //f2.con.Close();
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -43,13 +39,55 @@ namespace AgricultureDBMS
 
             this.Hide();
         }
-
+     
         private void button1_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(user_name.Text))
+            {
+                MessageBox.Show("please enter your user name","Message",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                user_name.Focus();
+                return;
+            }
+            try
+            {
+                
+
+                AgricultureprojectDataSetTableAdapters.UsersTableAdapter user = new AgricultureprojectDataSetTableAdapters.UsersTableAdapter();
+                AgricultureprojectDataSet.UsersDataTable dt = user.GetDataByusernamepassword(user_name.Text, pasword.Text);
+                if(dt.Rows.Count>0)
+                {
+                    MessageBox.Show("you have been successfully logged in.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //process your login here 
+                }
+                else
+                {
+                    MessageBox.Show("Your username or password is incorrect.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, " Message ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+
             Form DashBoard = new Landlord_Dashboard();
             DashBoard.Show();
 
             this.Hide();
+        }
+
+        private void user_name_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+                pasword.Focus();
+        }
+
+        private void pasword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+                login_btn.PerformClick();
+                
+                
         }
     }
 }
