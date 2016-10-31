@@ -19,7 +19,7 @@ namespace AgricultureDBMS
         public Login()
         {
             InitializeComponent();
-            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\ABEER\Documents\Agricultureproject.accdb";
+            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\waheed\Documents\Agricultureproject.accdb";
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -58,10 +58,14 @@ namespace AgricultureDBMS
                 {
                     MessageBox.Show("you have been successfully logged in.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     //process your login here 
+                    Form DashBoard = new Landlord_Dashboard();
+                    DashBoard.Show();
                 }
                 else
                 {
                     MessageBox.Show("Your username or password is incorrect.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Form login = new Login();
+                    login.Show();
                 }
             }
             catch (Exception ex)
@@ -70,8 +74,7 @@ namespace AgricultureDBMS
 
             }
 
-            Form DashBoard = new Landlord_Dashboard();
-            DashBoard.Show();
+          
 
             this.Hide();
         }
@@ -88,6 +91,17 @@ namespace AgricultureDBMS
                 login_btn.PerformClick();
                 
                 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            SignUp f = new SignUp();
+            f.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

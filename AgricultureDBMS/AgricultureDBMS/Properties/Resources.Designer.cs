@@ -83,6 +83,26 @@ namespace AgricultureDBMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pomegranate_anar_250x250 {
+            get {
+                object obj = ResourceManager.GetObject("pomegranate-anar-250x250", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Security_icon {
+            get {
+                object obj = ResourceManager.GetObject("Security-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_login_icon {
             get {
                 object obj = ResourceManager.GetObject("user-login-icon", resourceCulture);

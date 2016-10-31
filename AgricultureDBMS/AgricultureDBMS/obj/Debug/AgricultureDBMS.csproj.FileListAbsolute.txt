@@ -27,7 +27,7 @@ F:\Ali khan\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\Agricu
 F:\Ali khan\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Login.resources
 F:\Ali khan\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Properties.Resources.resources
 F:\Ali khan\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.csproj.GenerateResource.Cache
-D:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\bin\Debug\Agricultureproject.accdb
+F:\Ali khan\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.SignUp.resources
 F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\bin\Debug\AgricultureDBMS.exe.config
 F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.exe
 F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.pdb
@@ -42,7 +42,5 @@ F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS
 F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Landlord_Dashboard.resources
 F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Login.resources
 F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.Properties.Resources.resources
+F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.SignUp.resources
 F:\AgricultureDBMS.git\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.csproj.GenerateResource.Cache
-C:\Users\waheed\Desktop\ali ka kaam- project\AgricultureDBMS\AgricultureDBMS\bin\Debug\AgricultureDBMS.exe.config
-C:\Users\waheed\Desktop\ali ka kaam- project\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.exe
-C:\Users\waheed\Desktop\ali ka kaam- project\AgricultureDBMS\AgricultureDBMS\obj\Debug\AgricultureDBMS.pdb
