@@ -19,7 +19,7 @@ namespace AgricultureDBMS
         public Login()
         {
             InitializeComponent();
-            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\waheed\Documents\Agricultureproject.accdb";
+            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Agricultureproject.accdb";
         }
 
         private void Login_Load(object sender, EventArgs e)

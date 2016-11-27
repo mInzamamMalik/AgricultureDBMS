@@ -18,7 +18,7 @@ namespace AgricultureDBMS
         {
             InitializeComponent();
             //con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\ABEER\Documents\Agricultureproject.accdb";
-            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\waheed\Documents\Agricultureproject.accdb";
+            con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Agricultureproject.accdb";
         }
 
         private void button2_Click(object sender, EventArgs e)
