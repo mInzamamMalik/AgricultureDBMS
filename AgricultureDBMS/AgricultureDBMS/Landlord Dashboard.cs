@@ -21,6 +21,8 @@ namespace AgricultureDBMS
             con.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Agricultureproject.accdb";
         }
 
+        public static string userName;
+
         private void Landlord_Dashboard_Load(object sender, EventArgs e)
         {
             try
@@ -74,6 +76,8 @@ namespace AgricultureDBMS
                             panel5.Controls.Add(l2);
                             panel5.Show();
                             pointY += 125;
+
+                            //label1.Text = reader["Name"].ToString();
                             
                     }
                     catch (Exception)
@@ -91,6 +95,34 @@ namespace AgricultureDBMS
                 }
 
 
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error" + ex);
+            }
+
+            //for Name display from db
+            try
+            {
+                con.Open();
+                OleDbCommand cmd = new OleDbCommand();
+                cmd.Connection = con;
+                string query = "select Name from Users where username='" + userName + "' ";
+
+                cmd.CommandText = query;
+                OleDbDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    //for insert
+
+
+                    //for update
+                    // pdUpdateCombo.Text = reader["Pro_Name"].ToString();
+                    String a = reader["Name"].ToString();
+
+                     a = "";
+                }
                 con.Close();
             }
             catch (Exception ex)

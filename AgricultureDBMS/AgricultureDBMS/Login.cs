@@ -57,7 +57,8 @@ namespace AgricultureDBMS
                 if(dt.Rows.Count>0)
                 {
                     MessageBox.Show("you have been successfully logged in.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    //process your login here 
+                    //process your login here
+                    Landlord_Dashboard.userName = user_name.Text;
                     Form DashBoard = new Landlord_Dashboard();
                     DashBoard.Show();
                 }
